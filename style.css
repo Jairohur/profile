@@ -73,6 +73,24 @@ i.hover {
   transform: scale(1.2);
 }
 
+.btn {
+  display: block;
+  background-color: red;
+  width: fit-content;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn.hover {
+  background-color: rgb(98, 0, 0);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  color: rgb(255, 208, 208);;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
